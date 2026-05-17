@@ -152,6 +152,16 @@ h1,
     border-bottom: 1px solid var(--line);
 }
 
+.primary-links,
+.secondary-links {
+    grid-template-columns: 1fr;
+}
+
+.secondary-links {
+    border-top: 1px solid var(--line);
+    margin-top: 34px;
+}
+
 .simple-link {
     display: grid;
     gap: 4px;
