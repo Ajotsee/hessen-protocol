@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="헤센 프로토콜 회원들이 Google Drive에 올린 독서록 아카이브입니다.">
+    <title>독서록 | 헤센 프로토콜</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="main-nav">
+        <div class="nav-container">
+            <a href="index.html" class="nav-logo">Hessen Protocol</a>
+            <ul class="nav-links">
+                <li><a href="intro.html">소개</a></li>
+                <li><a class="active" href="reading_logs.html">독서록</a></li>
+                <li><a href="videos.html">동영상</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <main class="page">
+        <header class="page-header compact">
+            <p class="eyebrow">Archive</p>
+            <h1>독서록 아카이브</h1>
+            <p class="lead">회원들이 Google Drive 폴더에 올린 PDF가 이곳에 반영됩니다. 새 파일은 Drive에 추가하면 되고, 사이트는 같은 폴더를 계속 바라봅니다.</p>
+            <div class="actions">
+                <a class="btn primary" href="https://drive.google.com/drive/folders/1PaHVnZICDbKfQSJrAdEFyKkesqu_-ZCU?usp=drive_link" target="_blank" rel="noopener">Drive에서 열기</a>
+                <a class="btn secondary" href="intro.html">양식 확인하기</a>
+            </div>
+        </header>
+
+        <section class="drive-section" aria-label="Google Drive 독서록 폴더">
+            <iframe title="헤센 프로토콜 독서록 Google Drive 폴더" src="https://drive.google.com/embeddedfolderview?id=1PaHVnZICDbKfQSJrAdEFyKkesqu_-ZCU#list" loading="lazy"></iframe>
+            <div class="drive-fallback">
+                <strong>목록이 보이지 않나요?</strong>
+                <p>Google Drive 공유 설정이나 브라우저 로그인 상태에 따라 내장 목록이 비어 보일 수 있습니다. 그럴 때는 위의 Drive에서 열기 버튼을 사용하면 됩니다.</p>
+            </div>
+        </section>
+    </main>
+
+    <a class="floating-kakao" href="https://open.kakao.com/o/g4V3KNai" target="_blank" rel="noopener">질문하기</a>
+</body>
+</html>
