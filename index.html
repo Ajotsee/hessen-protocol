@@ -211,7 +211,7 @@
                     </button>
                     <span id="audioTime" style="font-size: 1.1em; color: #555; font-weight: bold; min-width: 60px;">00:00</span>
                 </div>
-                <audio id="audioPlayer" src="audio.m4a"></audio>
+                <audio id="audioPlayer" src="audio-guide.m4a"></audio>
             </div>
         </section>
     </main>
@@ -242,7 +242,7 @@
                         playBtn.textContent = '⏹ 2025년 북말정산 멈추기';
                         playBtn.classList.replace('btn-primary', 'btn-danger');
                     }).catch(function() {
-                        alert("파일을 찾을 수 없습니다.\n폴더에 'audio.m4a' 파일이 있는지 확인해주세요.");
+                        alert("오디오 파일을 재생할 수 없습니다.\n잠시 후 다시 시도해주세요.");
                     });
                 }
             } else {
